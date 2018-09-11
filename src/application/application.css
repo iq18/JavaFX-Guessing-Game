@@ -1,0 +1,43 @@
+/* Ivan 
+ * Styles for buttons etc
+ */
+.menu{
+	-fx-font-size:17px;
+	-fx-background-color:#348961;
+	-fx-pref-width: 150px;
+	-fx-text-fill:#ffffff;
+}
+
+.menu:hover{
+	-fx-background-color:#ffffff;
+	-fx-text-fill: red;
+}
+
+
+.playerFeedback, .instructions{
+	-fx-font-size:15px;
+}
+
+.submit, .footer,.enter{
+	-fx-font-size:15px;
+	-fx-pref-width: 100px;
+	-fx-background-color:#229921;
+}
+.guess-text{
+	-fx-font-size:20px;
+	
+}
+
+.root{
+	-fx-background-color:#d1e0e0;
+}
+
+.c-box{
+	-fx-pref-width: 150px;
+	-fx-font-size:17px;
+	
+}
+.my-alert{
+	-fx-background-color:#d1e0e0;
+	-fx-font-size:15px;
+}
