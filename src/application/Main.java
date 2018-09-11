@@ -234,6 +234,9 @@ public class Main extends Application {
 				b.setMinWidth(40);
 				//add buttons to FlowPane
 				lottoPane.getChildren().add(b);
+				//set space between buttons
+				lottoPane.setHgap(2);
+				lottoPane.setVgap(1);
 				
 				//event handler | parse text to Integer add to ArrayList
 				b.setOnAction(e -> {
